@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card" style="width: 300px;">
+    <img src="{{ img }}" class="card-img-top" alt="dataUrls">
+    <div class="card-body text-center">
+      <p class="card-text">Generate QR Code data: {{ data }}</p>
+    </div>
+  </div>
+{% endblock %}
